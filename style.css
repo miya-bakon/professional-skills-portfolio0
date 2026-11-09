@@ -38,7 +38,10 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.045em}
 
 /* ---------- Common buttons, editorial labels and section titles ---------- */
 .overline,.section-kicker,.section-intro .section-kicker{display:flex;align-items:center;gap:12px;color:var(--accent);font:800 .7rem var(--display);text-transform:uppercase;letter-spacing:.16em}
-.overline-rule{height:2px;width:30px;background:var(--accent)}
+/* Hide the decorative dash on the homepage and all session pages. */
+.overline-rule {
+    display: none;
+}
 .overline-divider{color:var(--muted)}
 .button{display:inline-flex;align-items:center;justify-content:center;gap:17px;border-radius:5px;padding:14px 21px;font:800 .83rem var(--display);transition:transform .2s,background .2s}
 .button:hover{transform:translateY(-3px)}
