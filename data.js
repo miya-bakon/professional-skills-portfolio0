@@ -1,10 +1,9 @@
-/* =====================================================================
-   ALL THE TEXT LIVES HERE. It comes straight from the Base Content document.
-   To fix a typo, edit it in this file and refresh the browser.
-   Each session has: overview, blocks (key concepts), activities, reflection.
-   Inside them: p = paragraph, h = small heading, ul = list of [term, text],
+/*
+   ALL THE TEXT LIVES HERE.
+   Inside: p = paragraph, h = small heading, ul = list of [term, text],
    img = list of photo files next to this file
-   ===================================================================== */
+ */
+
 const SESSIONS = [
  {
   "id": 1,
